@@ -38,6 +38,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/motorola/titan/proprietary/lib/libmot_sensorlistener.so:system/lib/libmot_sensorlistener.so \
     vendor/motorola/titan/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/titan/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/motorola/titan/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/motorola/titan/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/motorola/titan/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
@@ -50,7 +51,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/bin/charge_only_mode:system/bin/charge_only_mode \
     vendor/motorola/titan/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/titan/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/motorola/titan/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/motorola/titan/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
     vendor/motorola/titan/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/motorola/titan/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
