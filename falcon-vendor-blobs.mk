@@ -55,7 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat:system/etc/firmware/synaptics-s2316-13091704-175833-falcon.tdat \
     vendor/motorola/falcon/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/motorola/falcon/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
-    vendor/motorola/falcon/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
