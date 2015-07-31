@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(PRODUCT_DEVICE),titan)
+ifeq ($(PRODUCT_DEVICE),titan)
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
 LOCAL_MODULE_OWNER := motorola
