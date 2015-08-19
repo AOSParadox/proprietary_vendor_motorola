@@ -16,6 +16,11 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/titan/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
+    vendor/motorola/titan/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/motorola/titan/proprietary/vendor/lib/libasn1cper.so:system/vendor/lib/libasn1cper.so \
+    vendor/motorola/titan/proprietary/vendor/lib/libasn1crt.so:system/vendor/lib/libasn1crt.so \
+    vendor/motorola/titan/proprietary/vendor/lib/libasn1crtx.so:system/vendor/lib/libasn1crtx.so \
     vendor/motorola/titan/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
     vendor/motorola/titan/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/motorola/titan/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -63,15 +68,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/motorola/titan/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/titan/proprietary/bin/location-mq:system/bin/location-mq \
+    vendor/motorola/titan/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/motorola/titan/proprietary/bin/quipc_igsn:system/bin/quipc_igsn \
+    vendor/motorola/titan/proprietary/bin/quipc_main:system/bin/quipc_main \
+    vendor/motorola/titan/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/motorola/titan/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/titan/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/motorola/titan/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
-    vendor/motorola/titan/proprietary/etc/gps.conf:system/etc/gps.conf \
-    vendor/motorola/titan/proprietary/etc/izat.conf:system/etc/izat.conf \
-    vendor/motorola/titan/proprietary/etc/quipc.conf:system/etc/quipc.conf \
-    vendor/motorola/titan/proprietary/etc/sap.conf:system/etc/sap.conf \
-    vendor/motorola/titan/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/motorola/titan/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/titan/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/titan/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/motorola/titan/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
@@ -79,15 +82,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/motorola/titan/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/motorola/titan/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/motorola/titan/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/motorola/titan/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/motorola/titan/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/motorola/titan/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
+    vendor/motorola/titan/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/motorola/titan/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
     vendor/motorola/titan/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/motorola/titan/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/titan/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
-    vendor/motorola/titan/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/motorola/titan/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/titan/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/motorola/titan/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
