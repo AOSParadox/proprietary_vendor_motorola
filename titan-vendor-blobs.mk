@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/titan/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/titan/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/titan/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/motorola/titan/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/motorola/titan/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/motorola/titan/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
