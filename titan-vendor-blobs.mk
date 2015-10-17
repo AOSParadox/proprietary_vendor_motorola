@@ -34,7 +34,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/motorola/titan/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/titan/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/motorola/titan/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/titan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/titan/proprietary/bin/sensord:system/bin/sensord \
     vendor/motorola/titan/proprietary/bin/thermal-engine:system/bin/thermal-engine \
@@ -90,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/titan/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/titan/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/titan/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/motorola/titan/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/motorola/titan/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/motorola/titan/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/titan/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -240,6 +239,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/motorola/titan/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/titan/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/motorola/titan/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
     vendor/motorola/titan/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/titan/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/motorola/titan/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
