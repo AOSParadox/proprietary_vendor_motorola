@@ -89,6 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/falcon/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/falcon/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/motorola/falcon/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/motorola/falcon/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/motorola/falcon/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/motorola/falcon/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
