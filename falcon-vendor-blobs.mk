@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/bin/quipc_main:system/bin/quipc_main \
     vendor/motorola/falcon/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/falcon/proprietary/bin/rfs_access:system/bin/rfs_access \
-    vendor/motorola/falcon/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/falcon/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/falcon/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/falcon/proprietary/bin/time_daemon:system/bin/time_daemon \
@@ -90,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/falcon/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/falcon/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/motorola/falcon/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/motorola/falcon/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/motorola/falcon/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon \
     vendor/motorola/falcon/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/falcon/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -214,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libwifiscanner.so:system/vendor/lib/libwifiscanner.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/motorola/falcon/proprietary/vendor/lib/libsysutils_local.so:system/vendor/lib/libsysutils_local.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
