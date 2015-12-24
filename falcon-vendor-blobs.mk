@@ -69,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/falcon/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/motorola/falcon/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
-    vendor/motorola/falcon/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     vendor/motorola/falcon/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/falcon/proprietary/lib/libchromatix_ar0543_common.so:system/lib/libchromatix_ar0543_common.so \
     vendor/motorola/falcon/proprietary/lib/libchromatix_ar0543_default_video.so:system/lib/libchromatix_ar0543_default_video.so \
