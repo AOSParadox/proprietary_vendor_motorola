@@ -20,7 +20,6 @@ PRODUCT_PACKAGES += \
     TimeService \
     qcrilmsgtunnel \
     qcnvitems \
-    qcrilhook \
-    libHevcSwDecoder
+    qcrilhook
 
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor-blobs.mk)
