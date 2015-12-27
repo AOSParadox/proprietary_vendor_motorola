@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/titan/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/titan/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/motorola/titan/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
+    vendor/motorola/titan/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/motorola/titan/proprietary/lib/hw/sensors.MSM8226.so:system/lib/hw/sensors.MSM8226.so \
     vendor/motorola/titan/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/titan/proprietary/lib/libchromatix_ar0543_common.so:system/lib/libchromatix_ar0543_common.so \
