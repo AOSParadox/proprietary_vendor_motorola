@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/falcon/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/falcon/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/motorola/falcon/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
+    vendor/motorola/falcon/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
     vendor/motorola/falcon/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so \
     vendor/motorola/falcon/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/falcon/proprietary/lib/libchromatix_ar0543_common.so:system/lib/libchromatix_ar0543_common.so \
@@ -234,6 +234,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/motorola/falcon/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so  \
     vendor/motorola/falcon/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/motorola/falcon/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
     vendor/motorola/falcon/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
