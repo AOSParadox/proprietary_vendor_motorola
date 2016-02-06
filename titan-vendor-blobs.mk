@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The AOSParadox Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,7 +31,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/titan/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/motorola/titan/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/motorola/titan/proprietary/bin/sensord:system/bin/sensord \
     vendor/motorola/titan/proprietary/bin/thermal-engine:system/bin/thermal-engine \
     vendor/motorola/titan/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/titan/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
@@ -70,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/titan/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
     vendor/motorola/titan/proprietary/lib/hw/camera.msm8226.so:system/lib/hw/camera.msm8226.so \
-    vendor/motorola/titan/proprietary/lib/hw/sensors.MSM8226.so:system/lib/hw/sensors.MSM8226.so \
     vendor/motorola/titan/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/titan/proprietary/lib/libchromatix_ar0543_common.so:system/lib/libchromatix_ar0543_common.so \
     vendor/motorola/titan/proprietary/lib/libchromatix_ar0543_default_video.so:system/lib/libchromatix_ar0543_default_video.so \
@@ -244,4 +242,4 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/titan/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
     vendor/motorola/titan/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/motorola/titan/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
-    vendor/motorola/titan/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
+    vendor/motorola/titan/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so

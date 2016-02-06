@@ -1,4 +1,4 @@
-# Copyright (C) 2015 The AOSParadox Project
+# Copyright (C) 2015 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -13,6 +13,7 @@
 # limitations under the License.
 
 # Pick up overlay for features that depend on non-open-source files
+
 PRODUCT_PACKAGES += \
     com.qualcomm.location \
     com.qualcomm.services.location \
